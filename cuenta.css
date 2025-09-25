@@ -1,0 +1,49 @@
+/*Menu de Navegacion*/
+header {
+    background: rgba(5, 168, 233, 0.7);
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    background: hsla(199, 86%, 45%)
+  }
+
+nav {
+    float: left;
+  }
+
+nav ul {
+    list-style: none;
+    overflow: hidden; 
+  }
+
+nav ul li {
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;;
+    font-size: 20px;
+}
+
+nav ul li a {
+    display: block; 
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+  }
+    
+nav ul li:hover {
+    background: #04aa6d;
+}
+
+
+.Datos{
+    position: relative; bottom: 0px; left: 0px;
+    color: #000;
+    text-align: center;
+    border:0cap dotted #000000; 
+    padding: 8px;
+}
+
+.imagen{
+    position: relative; bottom: -16px; left: 540px;
+}
+
+
